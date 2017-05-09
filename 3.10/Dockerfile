@@ -1,4 +1,4 @@
-FROM debian:jessie-backports
+FROM williamyeh/java8
 
 RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys A278B781FE4B2BDA
 
